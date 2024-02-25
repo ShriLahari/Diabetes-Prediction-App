@@ -13,7 +13,7 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.model_selection import train_test_split
 import seaborn as sns
 # reading the file
-df = pd.read_csv("/content/drive/MyDrive/diabetes.csv")
+df = pd.read_csv("diabetes.csv")
 # Headers and subheaders
 st.title('Diabetes Checkup')
 st.sidebar.header("Patient's Data")
